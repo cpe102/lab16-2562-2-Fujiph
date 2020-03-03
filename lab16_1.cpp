@@ -48,7 +48,9 @@ int main(){
 		cout << "\n";
 	}
 	
-     delete  A,B,C;
+    delete  [] A , B;
+	for (int i = 0 ; i<nA ; i++) delete [] C[i] ;
+	delete [] C;
 	
 	return 0;
 }
