@@ -8,6 +8,7 @@ char myString(char *p,int N){
 		a[i] ='A' + i;
 		cout<< a[i];
 	}
+	a[N] = '\0';
 }	 	
 
 int main(){
