@@ -44,3 +44,4 @@ int main(){
      delete A,B,C; 
 
 	return 0;
+}
